@@ -38,4 +38,15 @@ namespace w08tl
 			return (total / args.Length);
 		}
 	}
+
+	class Numbers
+	{
+		private int MyNumber;
+
+		public int myNumber
+		{
+			get { return (MyNumber / 100); }
+			set { MyNumber = value * 100; }
+		}
+	}
 }

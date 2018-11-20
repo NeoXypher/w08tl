@@ -8,7 +8,7 @@ namespace w08tl
 {
 	class Program
 	{
-		public static void Main(string[] args)
+		public static void Main3(string[] args)
 		{
 			int radius1, radius2;
 			ring newRing = new ring();
